@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juice Shop Style Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="login-card">
+    <h1>Login</h1>
+
+    <form id="loginForm" novalidate>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="you@example.com" />
+      </div>
+
+      <div class="field">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="At least 8 characters" />
+      </div>
+
+      <!-- Validation messages show up here -->
+      <p id="message" class="message"></p>
+
+      <button type="submit">Log In</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
